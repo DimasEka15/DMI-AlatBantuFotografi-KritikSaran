@@ -14,17 +14,16 @@
     />
 
     <!-- Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 
     <!-- style -->
     <style>
       body {
         background-color: #f6f9ff;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
       }
       h1 {
         font-family: "Montserrat", sans-serif;
@@ -44,6 +43,9 @@
       .buttonHome,
       .buttonHomeHover {
         width: 56px;
+      }
+      label{
+        font-weight: 600;
       }
     </style>
 
@@ -67,11 +69,11 @@
             <img src="img/illustration1.png" alt="Illustrasi" class="m-1" />
           </div>
           <div class="col-xl-6 col-lg-6">
-            <h1>Kritik dan Saran</h1>
+            <h1 class="mb-4">Kritik dan Saran</h1>
 
             <!-- alert -->
-            <div class="alert alert-success alert-dismissible fade show d-none" role="alert">
-              <strong>Terimakasih!</strong> Kritik dan Saran yang kamu kirimkan sudah kami terima
+            <div class="alert alert-success alert-dismissible fade show d-none mb-4" role="alert">
+              <strong>Terimakasih!</strong> Kritik dan Saran yang kamu sudah kami terima
               <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
             </div>
 
